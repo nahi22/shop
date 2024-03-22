@@ -1,0 +1,39 @@
+body{
+  background-color:  #04AA6D;
+}
+.all{
+  background-color: white;
+  height: 800px;
+  display: flex;
+  padding: 10px;
+}
+.name,.price,.image{
+  width: 30%;
+  margin-top: 10px;
+  margin-right: 15px;
+  height: 50px;
+  display:grid;
+}
+.but, .but1{
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  width: 150px;
+  margin-top: 15px;
+  background-color: #04AA6D;
+  border-color: #04AA6D;
+  border-radius: 6px;
+}
+.but:hover{
+  background-color: #4E5766;
+  border: none;
+  color: white;
+}
+.but1{
+  margin-left: 9px;
+  text-align: center;
+  text-shadow: center;
+  text-decoration: none;
+  color: black;
+
+}

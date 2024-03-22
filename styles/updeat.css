@@ -1,0 +1,37 @@
+body{
+
+}
+.all{
+  background-color: white;
+  height: 800px;
+  display: flex;
+  padding: 10px;
+}
+.name,.price,.image{
+  width: 30%;
+  margin-top: 10px;
+  margin-right: 15px;
+  height: 50px;
+  display:grid;
+}
+.but, .but1{
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  width: 150px;
+  margin-top: 15px;
+  background-color: #9B9C9C;
+  border-color: #9B9C9C;
+}
+.but:hover{
+  background-color: #4E5766;
+  border: none;
+  color: white;
+}
+.but1{
+  margin-left: 9px;
+  text-shadow: center;
+  text-decoration: none;
+  color: black;
+
+}

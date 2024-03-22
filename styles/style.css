@@ -1,0 +1,46 @@
+body{
+  margin-left:  100px;
+  margin-right:  100px;
+}
+.skizb{
+  display: flex;
+}
+.log{
+  width: 180px;
+  height: 40px;
+}
+ul{
+   list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+a{
+  margin-right: 10px;
+  text-decoration: none;
+   color: black;
+}
+.poisk{
+  margin-left: 30px;
+  width: 300px;
+  height: 25px;
+  border: 0,5px;
+  border-color: black;
+}
+.menu{
+  display: flex;
+  margin-top: 20px;
+}
+.aj{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  align-items: center;
+}
+.icn{
+  width: 20px;
+  height: 20px;
+}
+.fa-solid{
+  margin-right: 50px;
+}

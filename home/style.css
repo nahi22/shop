@@ -1,0 +1,260 @@
+body{
+    margin-left:  100px;
+    margin-right:  100px;
+    
+    }
+.skizb{
+    display: flex;
+    }
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    }
+a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    }
+.poisk{
+    margin-left: 145px;
+    width: 600px;
+    height: 25px;
+    border: 0,5px;
+    color: #6F6F6F;
+    }
+.incon{
+    margin-left: 730px;
+    margin-top: -23px;
+    }
+    .incon1{
+    margin-left: 900px;
+    margin-top: -20px;
+    }
+.incon2{
+    margin-left: 1080px;
+    margin-top: -20px;
+    }
+.f7{
+    display: flex;
+    margin-top: 80px;
+    }
+.btn{
+    background-color:#fe16b4;
+    border: none;
+    color: white;
+    padding: 2px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 35px;
+    width: 190px;
+    height: 28px;
+    margin-top: -25px;
+    }
+.vandak{
+    border: 1px solid  #fe16b4;
+    text-align: center;
+    margin-left: 65px;
+    }
+.menu{
+    display: flex;
+    margin-top: 20px;
+    }
+.aj{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    }
+.fa-solid{
+    margin-right: 50px;
+    }
+.f1 {
+    display: flex;
+    width: 1440px;
+    margin: 5px;
+    height: 394px;
+    margin-top: 2778;
+    float: left;
+    margin-left:  100px;
+    }
+.h1 {
+    color: #ff1493;
+    margin-right: 110px;
+    }
+.l1 {
+    border: 2px solid #ff1493 ;
+    width: 180px;
+    text-align: left;
+    margin-left: 1020px;}
+.h2 {
+    color: #ff1493;
+    margin-right: 50px;
+    margin-top: 20px;
+    }
+.l2 {
+    border: 2px solid #ff1493;
+    width: 110px;
+    margin-left: 0;
+    }
+.h3 {
+    color: #ff1493;
+    margin-right: 85px;
+    }
+.l3 {
+    border: 2px solid #ff1493;
+    width: 160px;
+    text-align: left;
+    margin-top: 20px;
+    }
+.img2 {
+    text-align: left;
+    }
+.j {
+    color: #6F6F6F;
+    }
+.p1 {
+    color:  #000000;
+    margin-top: -25px;
+    }
+.img3 {
+    margin-left: 150px;
+    width: 150px;
+    }
+.f2 {
+    text-align: left;
+    margin: -100px;
+    margin-top: 200px ;
+    position: absolute;
+    margin-bottom: 500px;
+    }
+.n1 {
+     margin-left: 40px;
+    margin-top: -17px;
+    }
+.n2 {
+    margin-left: 40px;
+    margin-top: -17px;
+    }
+.n3 {
+    margin-right: 40px;
+    margin-top: -18px;
+    }
+.a1 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 530px;
+    }
+.a2 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 880px;
+    }
+.a3{
+    text-align: right;
+    margin-top: 220px;
+    margin-left: 170px;
+    }
+a:hover {
+    color: #fe16b4;
+    }
+.s1{
+    background-color: #fe16b4;
+    display: flex;
+    margin-top: 70px;
+    }
+.d2{
+    color: white;
+    margin-top: 50px;
+    margin-left: 145px;
+    }
+.d3{
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 40px 10px;
+    margin-top: 60px;
+    text-align: center;
+    background-color: white;
+    color: #ff1493;
+    }
+.circles {
+    display: flex;
+    margin-top: 350px;
+    margin-left: -340px;
+    }
+.circle-with-text {
+    background:white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 15px;
+    padding: 20px;
+    height: 45px;
+    width: 45px;
+    color:#fe16b4;
+    }
+.circle{
+    margin: 0;
+ }
+.f3{
+    display: flex;
+    margin-top: 300px;
+    justify-content: center;
+   }
+.c1{
+    margin-top: -55px;
+    font-size: 30px;
+   }
+.t1{
+    margin-top: 30px;
+    margin-left: -125px;
+   }
+.c2{
+    margin-left: 185px;
+    margin-top: -55px;
+    font-size: 30px;
+   }
+.t2{
+    margin-top: 30px;
+    margin-left: -125px;
+   }
+.c3{
+    margin-left: 180px;
+     margin-top: -55px;
+    font-size: 30px;
+   }
+.t3{
+    margin-top: 30px;
+    margin-left: -125px;
+   }
+.c4{
+    margin-left: 175px;
+    margin-top: -55px;
+    font-size: 30px;
+   }
+.t4{
+    margin-top: 30px;
+    margin-left: -125px;
+   }
+.c5{
+    margin-left: 170px;
+    margin-top: -55px;
+    font-size: 30px;
+   }
+.t5{
+    margin-top: 30px;
+    margin-left: -110px;
+   }
+.i4{
+    margin-right: 125px;
+    margin-top: 15px;
+   }
+.i5{
+    margin-right: 170px;
+   }
+ .i6{
+    margin-right: 120px;
+    margin-top: 25px;
+    }
