@@ -1,18 +1,3 @@
-<?php
-// echo '<script>
-// function delete() {
-//
-//     var choose = confirm("Are you sure you want to delete this line?");
-//
-//     if (choose) {
-//
-//         console.log("The line has been deleted.");
-//     } else {
-//         console.log("Deletion cancelled.");
-//     }
-// }</script>;'
-?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -23,11 +8,7 @@
   <body>
 
     <?php
-// Database connection parameters
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "test";
+    require '../config.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

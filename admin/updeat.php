@@ -8,10 +8,8 @@
   <body>
     <div class="value" style="margin-top:20px;">
       <?php
-      $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $dbname = "test";
+      require '../config.php';
+
       $res_sql = "";
 
 

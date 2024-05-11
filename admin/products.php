@@ -25,10 +25,8 @@
               <th class='th'>choose</th>
             </tr>";
 
-      $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $dbname = "test";
+      require '../config.php';
+
       $res_sql = "";
 
 
