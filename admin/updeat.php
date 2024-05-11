@@ -12,8 +12,7 @@
 
       $res_sql = "";
 
-
-        $conn = new mysqli("localhost","root","","test");
+      $conn = new mysqli($servername,$username,$password,$dbname);
 
         $id = $_GET['id'];
 

@@ -29,8 +29,7 @@
 
       $res_sql = "";
 
-
-        $conn = new mysqli("localhost","root","","test");
+        $conn = new mysqli($servername,$username,$password,$dbname);
         $res_sql = $conn -> query("SELECT * FROM products");
 
         if($res_sql->num_rows>0){
