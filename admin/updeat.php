@@ -18,7 +18,6 @@
 
         $sql = "SELECT * FROM products WHERE id = '$id'";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("i", $id); // Assuming ID is an integer, adjust accordingly if it's another data type
         $stmt->execute();
         $result = $stmt->get_result();
 
