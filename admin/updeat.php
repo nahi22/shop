@@ -96,7 +96,7 @@
                   <label for="fileToUpload">Նկար</label>
                   <?php
                   if ($row["img"]){
-                    echo'<img src="'.$row["img"].'" alt="Image">';
+                    echo'<img src="'.$row["img"].'" alt="Image" style="max-width:200px;">';
                   }
                   ?>
 
