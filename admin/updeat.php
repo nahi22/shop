@@ -29,7 +29,7 @@
                 $new_name = $_POST['name'];
                 $new_price = $_POST['price'];
                 $imgUrl = $row['img'];
-                if (isset($_FILES["fileToUpload"])) {
+                if (isset($_FILES["fileToUpload"]) && isset($_FILES["fileToUpload"]["tmp_name"])) {
                   $target_dir = "../images/products/";
                   $uploadOk = 1;
 
